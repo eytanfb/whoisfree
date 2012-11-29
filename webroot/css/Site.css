@@ -1,0 +1,251 @@
+/*	MAIN DIV  */
+
+div#mainDiv{
+	height: 700px;
+	width: 1380px;
+	border: 1px solid #FFD700;
+	background-color: #960018;
+	color: #FFD700;
+}
+
+/*  HEADER(Top Part of the site)  */
+
+div#header{
+	background-color: #960018;
+	height: 100px;
+	width: inherit;
+	border: 1px solid #FFD700;
+}
+
+img#headerImage{
+	height: inherit;
+	width: 10%;
+	float: left;
+	position: relative;
+}
+
+h1#headerTitle{
+	color: #32fa2c;
+	height: inherit;
+	overflow: hidden;
+	text-align: center;
+}
+
+div#login{
+	width: 10%;
+	height: inherit;
+	position: relative;
+	float: left;
+	text-align: right;
+	font-size: medium;
+	overflow: hidden;
+}
+
+div a{
+	color: #FFD700;
+}
+
+div a:hover{
+	color: navy;
+}
+
+/*  NAVIGATION MENU   */
+
+div#headerNavMenu{
+	overflow: hidden;
+	height: inherit;
+	width: 80%;
+	border-bottom: 1px solid #FFD700;
+	position: relative;
+	float: left;
+	
+}
+
+div.menuTab{
+	position: relative;
+	top: 70%;
+	width: 20%;
+	border:1px solid #960018;
+	height: inherit;
+	background-color: #FFD700;
+	color: #960018;
+	text-align: center;
+	font-size: larger;
+	float: left;
+}
+
+a.tabName{
+	color: #960018;
+	text-decoration: none;
+}
+
+.menuTab a:hover{
+	color: #7800ff;
+}
+
+/*	FOOTER	*/
+div#footer{
+	position: relative;
+	bottom: -400px;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+}
+
+/*	MAIN CONTENT	*/
+div.welcomePicture{
+	width: 33%;
+	position: relative;
+	float: left;
+}
+
+img#welcomePhoto{
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+}
+
+label#welcomeLabel{
+	position: relative;
+	bottom: 205px;
+	right: 205px;
+	font-size: smaller;
+	color: white;
+}
+
+div#description{
+	width: 33%;
+	position: relative;
+	float: left;
+	color: #FFD700;
+	top: 20%;
+	margin-top: 100px;
+	font-size: 18px;
+}
+
+div#topColumn{
+	position: relative;
+	float: left;
+}
+
+div#bottomColumn{
+	width: 100%;
+	position:relative;
+	float: left;
+	text-align: center;
+}
+
+div#mainContent{
+	height: 600px;
+}
+
+div#signupOrLoginBox{
+	border: 1px solid #FFD700;
+	margin-top: 50px;
+	margin-left: 200px;
+	height: 200px;
+	width: 25%;
+	text-align: left;
+	color: #FFD700;
+	position: relative;
+	float: left;
+}
+
+div.addTimeRow{
+	height: 25px;
+}
+
+/*	LOGGED IN USER */
+div#userTopHalf{
+	height: 40%;
+	width: 50%;
+	position: relative;
+	float: left;
+	border: 1px solid #FFD700;
+}
+
+div#userBottom{
+	border: 1px solid #FFD700;
+	height: 80%;
+}
+
+/*	HELPER	*/
+div.row{
+	width: 100%;
+	height: 25px;
+}
+
+div.label{
+	width: 50%;
+	position: relative;
+	float: right;
+}
+
+label.row{
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+label.selectRow
+{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 22px;
+}
+
+input[type="text"].row, input[type="password"].row, input[type="submit"].row, textarea, select{
+	position: relative;
+	float: right;
+	width: 50%;
+}
+
+div.usersForm{
+	width: 33%;
+}
+
+/*	TABLE SCROLL (BORROWED ONLINE)	*/
+.tablescroll {
+    font: 12px normal Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ 
+.tablescroll td, 
+.tablescroll_wrapper,
+.tablescroll_head,
+.tablescroll_foot { 
+    border:1px solid #ccc;
+}
+ 
+.tablescroll td {
+    padding:3px 5px;
+    border-bottom:0;
+    border-right:0; 
+}
+ 
+.tablescroll_wrapper {
+    background-color:#fff;
+    border-left:0;
+}
+ 
+.tablescroll_head,
+.tablescroll_foot { 
+    background-color:#eee;
+    border-left:0;
+    border-top:0;
+    font-size:11px;
+    font-weight:bold;
+}
+ 
+.tablescroll_head { 
+    margin-bottom:3px;
+}
+ 
+.tablescroll_foot { 
+    margin-top:3px;
+}
+ 
+.tablescroll tbody tr.first td { 
+    border-top:0; 
+}
+
